@@ -1,0 +1,46 @@
+.admin{
+  width: 100%; 
+  padding: 32px;
+}
+.avatar-img {
+  width: 40px;
+  height: 40px;
+	border-radius: 50%;
+}
+.table tbody tr td {
+  padding: 15px;
+}
+.plus-icon {
+  color: #198754;
+}
+.table tbody th {
+  vertical-align: middle;
+}
+.link-icon {
+  text-align: end;
+}
+.person-mail {
+  font-size: 14px;
+  color: #6C757D;
+}
+.page-link {
+  color: #000;
+  border: 1px solid #198754;
+}
+.pagination li:nth-child(2) a{ 
+  background-color: #198754;
+  color: #ffffff;
+} 
+.page-link:focus {
+  box-shadow: none;
+}
+.page-link:hover {
+  border: 1px solid #198754;
+  background-color: transparent;
+  color: #000;
+  background: rgba(0,0,0,.125);;
+}
+.navigate {
+  font-size: 18px;
+  color: #198754;
+}
