@@ -1,0 +1,87 @@
+.sidebar {
+  background: #F8F9FA;
+  min-height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 32px 32px 0px;
+}
+
+.answer-link {
+  padding: 5px 5px;
+}
+
+.item li:nth-child(5) a {
+  border-left: 5px solid green;
+}
+
+a {
+  color: #000;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008000;
+}
+
+.admin {
+  width: 100%;
+  padding: 32px;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.table tbody tr td {
+  padding: 15px;
+}
+
+.plus-icon {
+  color: #198754;
+}
+
+.table tbody th {
+  vertical-align: middle;
+}
+
+.link-icon {
+  text-align: end;
+}
+
+.person-mail {
+  font-size: 14px;
+  color: #6C757D;
+}
+
+.page-link {
+  color: #000;
+  border: 1px solid #198754;
+}
+
+.pagination li:nth-child(2) a {
+  background-color: #198754;
+  color: #ffffff;
+}
+
+.page-link:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.page-link:hover {
+  border: 1px solid #198754;
+  background-color: transparent;
+  color: #000;
+  background: rgba(0, 0, 0, 0.125);
+}
+
+.navigate {
+  font-size: 18px;
+  color: #198754;
+}
+
+/*# sourceMappingURL=all.css.map */
